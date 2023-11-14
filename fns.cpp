@@ -16,17 +16,16 @@ if(turn == 'X')
 std::cout << "Player - 1 [X]\n";
 else
 std::cout << "Player - 2 [O]\n";
-std::cout << " |     |\n";
-std::cout << " " << board[0][0] << " | " << board[0][1] << " | " << board[0][2] << "\n";
+std::cout << "     |     |\n";
+std::cout << "  " << board[0][0] << "  |  " << board[0][1] << "  |  " << board[0][2] << "\n";
 std::cout << "_____|_____|_____\n";
-std::cout << " | |\n";
-std::cout << " " << board[1][0] << " | " << board[1][1] << " | " << board[1][2] << "\n";
+std::cout << "     |     |\n";
+std::cout << "  " << board[1][0] << "  |  " << board[1][1] << "  |  " << board[1][2] << "\n";
 std::cout << "_____|_____|_____\n";
 
-
-std::cout << " | |\n";
-std::cout << " " << board[2][0] << " | " << board[2][1] << " | " << board[2][2] << "\n";
-std::cout << " | | \n";
+std::cout << "     |     |\n";
+std::cout << "  " << board[2][0] << "  |  " << board[2][1] << "  |  " << board[2][2] << "\n";
+std::cout << "     |     | \n";
 }
 
 
@@ -71,7 +70,7 @@ row = 2; column = 1;
 if(input == 9)
 {
 row = 2; column = 2;
-}
+} 
 
 
 if(turn == 'X' && board[row][column] != 'X' && board[row][column] != 'O')
