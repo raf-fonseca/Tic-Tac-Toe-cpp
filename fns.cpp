@@ -16,7 +16,7 @@ if(turn == 'X')
 std::cout << "Player - 1 [X]\n";
 else
 std::cout << "Player - 2 [O]\n";
-std::cout << " | |\n";
+std::cout << " |     |\n";
 std::cout << " " << board[0][0] << " | " << board[0][1] << " | " << board[0][2] << "\n";
 std::cout << "_____|_____|_____\n";
 std::cout << " | |\n";
